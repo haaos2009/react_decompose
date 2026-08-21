@@ -1,7 +1,7 @@
 import './Header.css';
-import { Navigation } from '../Navigation/Navigation';
+import Navigation from '../Navigation/Navigation';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
